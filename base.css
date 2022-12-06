@@ -1,0 +1,89 @@
+h1{
+    font-family: cursive;
+}
+h2{
+    border: 2px solid rebeccapurple;
+    background: azure;
+}
+input,textarea{
+    display: block;
+    color: black;
+    background-color: rgb(242,227,205);
+    margin-right: 150px;
+}
+
+textarea{
+    display: block;
+    margin-left: 25%;
+}
+.row{
+    position:relative;
+    left:37%;
+    top:29%;
+    width:320px;
+    height:270px;
+}
+    
+fieldset{
+    margin-left: 5%;
+    margin-right: 75%;
+    border-radius: 5px;
+    border-color: blanchedalmond;
+    background-color: #ffffff;
+    width:200px;
+    height:300px;
+}
+
+legend{
+    font-style:bold;
+    font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+    padding: 20%;
+}
+
+button{
+    background-color: bisque;
+    margin-bottom: 30%;
+    margin-left: 35%;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+button :hover{
+    cursor: pointer;
+    background-color: rgb(255,255,255);
+    border-radius: var(#141414);
+    color: #141414;
+}
+
+footer{
+    margin-top: 30%;
+}
+
+table{
+    -webkit-box-shadow: -1px 8px 9px 4px #828282;
+    box-shadow: -1px 8px 9px 4px #828282;
+    text-align: center;
+    margin-left: 43%;
+    background-color: #f1f1f1;
+}
+
+table tbody{
+    background-color: aliceblue;
+}
+
+table tr{
+    border: #828282 25px solid;
+}
+
+table tbody tr :hover td{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+table tbody td{
+  
+}
+
+tr :nth-child(even){
+    background-color: #94d0e4cc;
+}
